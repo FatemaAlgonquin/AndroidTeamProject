@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_settings"
+        android:title="About"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_one"
+        android:icon="@drawable/running"
+        android:orderInCategory="101"
+        android:title="One"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_two"
+        android:icon="@drawable/automotive"
+        android:orderInCategory="102"
+        android:title="Two"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_three"
+        android:icon="@drawable/ingredients"
+        android:orderInCategory="103"
+        android:title="Two"
+        app:showAsAction="always" />
+
+
+
+</menu>

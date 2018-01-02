@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lab1.a2335.finalproject.MessageFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comments: "
+            android:id="@+id/CommentLabel"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic"
+            android:textSize="25dp"
+            android:padding="3dip"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CommentsValue"
+            android:id="@+id/messageView"
+
+            android:textStyle="italic"
+            android:textSize="25dp"
+            android:padding="3dip"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration (min) : "
+            android:id="@+id/DurationLabel"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic"
+            android:textSize="25dp"
+            android:padding="3dip"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration"
+            android:id="@+id/durationId"
+            android:textStyle="italic"
+            android:textSize="25dp"
+            android:gravity="right"
+            android:padding="3dip"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date : "
+            android:id="@+id/DateLabel"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic"
+            android:textSize="25dp"
+            android:padding="3dip"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:id="@+id/dateField"
+            android:textStyle="italic"
+            android:textSize="25dp"
+            android:gravity="right"
+            android:padding="3dip"/>
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/deleteMsg"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_delete" />
+</LinearLayout>

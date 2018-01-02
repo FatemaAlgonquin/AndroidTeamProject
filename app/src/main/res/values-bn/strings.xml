@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">কার্যকলাপ ট্র্যাকার</string>
+    <string name="hello_message">হ্যালো !</string>
+    <string name="ButtonText">আমি একটি বোতাম।</string>
+    <string name="login_message">লগইন</string>
+    <string name="password_message">পাসওয়ার্ড</string>
+    <string name="RadioButton">রেডিও বোতাম</string>
+    <string name="What_does_it_do">এটার কাজ কি?</string>
+    <string name="CheckBox_message">চেকবক্সটি</string>
+    <string name="image_to_display">চিত্র প্রদর্শনের জন্য</string>
+    <string name="login_name">লগইন নাম</string>
+    <string name="weather_forecast">আবহাওয়া</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test_toolbar">TestToolbar</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <string name="pick_color">আপনি কি ফিরে যেতে চান? </string>
+
+    <string name="dialog">সতর্কতা: ডেটা স্থায়ীভাবে হারিয়ে যাবে!</string>
+    <string name="dialog_fire_missiles">স্বাগতম অ্যালার্ট ডায়ালগ বার্তা</string>
+    <string name="title_activity_toolbar">টুলবারের কার্যকলাপ</string>
+    <string name="summary">সারাংশ</string>
+    <string name="running">চলমান</string>
+    <string name="List_of_activities">ক্রিয়াকলাপের তালিকা</string>
+    <string name="Detailed_information">বিস্তারিত তথ্য</string>
+    <string name="Comment">মন্তব্য</string>
+    <string name="Time_spent">সময় অতিবাহিত</string>
+    <string name="Monthly_Summary">মাসিক সংক্ষিপ্ত বিবরণ</string>
+    <string name="Average_Running">গড় চলমান (মিনিট)</string>
+    <string name="Activity_Tracker">কার্যকলাপ ট্র্যাকার</string>
+    <string name="Add">যোগ</string>
+    <string name="Automobile">মোটরগাড়ি</string>
+    <string name="Food_Nutrition">খাদ্য পুষ্টি</string>
+    <string name="ok">ঠিক আছে</string>
+    <string name="cancel">বাতিল</string>
+    <string name="snackbartext">সংস্করণ: 1.0, উন্নত: ফাতেমা জোহোরা!</string>
+
+
+
+</resources>
