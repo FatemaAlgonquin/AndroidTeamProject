@@ -98,7 +98,7 @@ public class ToolbarActivity extends AppCompatActivity {
                 Snackbar.make(findViewById(R.id.toolbar),"Version: 1.0, Developed by: Fatema Zohora!", Snackbar.LENGTH_LONG).show();
                 //Toast.makeText(this.getApplicationContext(), "Version: 1.0 \n Developed by: Fatema Zohora!",
                         //Toast.LENGTH_LONG).show();
-                // 
+                //
 
             default:
                 break;

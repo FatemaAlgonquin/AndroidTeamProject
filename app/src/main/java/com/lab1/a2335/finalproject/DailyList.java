@@ -35,7 +35,6 @@ public class DailyList extends ToolbarActivity {
     EditText commentText;
     //TextView time;
     EditText timeText;
-    FrameLayout frameLayout;
 
     //TextView displayText;
 
@@ -82,22 +81,20 @@ public class DailyList extends ToolbarActivity {
             e.printStackTrace();
         }
 
+        isTab = getResources().getBoolean(R.bool.isTablet);
 
 
-
-
-
-        frameLayout = (FrameLayout)findViewById(R.id.exerciseDetails);
+        //frameLayout = (FrameLayout)findViewById(R.id.exerciseDetails);
 
         //phone
-        if(frameLayout == null){
+        if(!isTab){
             Log.i(TAG, "frame is not loaded");
-            isTab = false;
+           // isTab = false;
         }
         //tab
         else{
             Log.i(TAG, "frame is loaded");
-            isTab = true;
+           // isTab = true;
             detailLabel = (TextView) findViewById(R.id.dailySummaryLabel);
             detailLabel.setVisibility(View.INVISIBLE);
         }
@@ -335,7 +332,7 @@ public class DailyList extends ToolbarActivity {
             if(isTab){
                 commentText.setTextSize(TypedValue.COMPLEX_UNIT_DIP,30);
             }else{
-                commentText.setTextSize(TypedValue.COMPLEX_UNIT_DIP,20);
+                commentText.setTextSize(TypedValue.COMPLEX_UNIT_DIP,15);
 
             }
 

@@ -47,9 +47,6 @@
     <string name="Automobile">Automobile</string>
     <string name="Food_Nutrition">Food Nutrition</string>
     <string name="snackbartext">Version: 1.0, Developed by: Fatema Zohora!</string>
-    <string name="Duration">Duration (min) :</string>
-    <string name="Date">Date : </string>
-    <string name="Comments">Comments: </string>
 
 
 </resources>

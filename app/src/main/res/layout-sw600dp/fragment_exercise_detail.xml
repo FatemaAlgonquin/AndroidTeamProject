@@ -18,7 +18,7 @@
             android:id="@+id/CommentLabel"
             android:textColor="@color/colorAccent"
             android:textStyle="italic"
-            android:textSize="20dp"
+            android:textSize="25dp"
             android:padding="3dip"/>
 
         <TextView
@@ -28,7 +28,7 @@
             android:id="@+id/messageView"
 
             android:textStyle="italic"
-            android:textSize="20dp"
+            android:textSize="25dp"
             android:padding="3dip"/>
 
 
@@ -45,16 +45,16 @@
             android:id="@+id/DurationLabel"
             android:textColor="@color/colorAccent"
             android:textStyle="italic"
-            android:textSize="20dp"
+            android:textSize="25dp"
             android:padding="3dip"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Duration"
+            android:text="@string/Duration"
             android:id="@+id/durationId"
             android:textStyle="italic"
-            android:textSize="20dp"
+            android:textSize="25dp"
             android:gravity="right"
             android:padding="3dip"/>
     </LinearLayout>
@@ -66,11 +66,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Date : "
+            android:text="@string/Date"
             android:id="@+id/DateLabel"
             android:textColor="@color/colorAccent"
             android:textStyle="italic"
-            android:textSize="20dp"
+            android:textSize="25dp"
             android:padding="3dip"/>
 
         <TextView
@@ -79,7 +79,7 @@
             android:text="Date"
             android:id="@+id/dateField"
             android:textStyle="italic"
-            android:textSize="20dp"
+            android:textSize="25dp"
             android:gravity="right"
             android:padding="3dip"/>
     </LinearLayout>

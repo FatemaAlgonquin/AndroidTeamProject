@@ -38,6 +38,9 @@
     <string name="ok">ঠিক আছে</string>
     <string name="cancel">বাতিল</string>
     <string name="snackbartext">সংস্করণ: 1.0, উন্নত: ফাতেমা জোহোরা!</string>
+    <string name="Duration">্থিতিকাল (মিনিট):</string>
+    <string name="Date">তারিখ:</string>
+    <string name="Comments">মন্তব্যসমূহ:</string>
 
 
 

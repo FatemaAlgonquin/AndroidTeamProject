@@ -51,7 +51,7 @@ public class MessageFragment extends Fragment {
             exerciseDate = bundle.getString("dateMsg");
 
             //dbID = bundle.getLong("dbId");
-            Log.i("MessageFragment", commentValue);
+         //   Log.i("MessageFragment", commentValue);
         }
     }
 
